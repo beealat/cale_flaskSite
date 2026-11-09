@@ -53,3 +53,6 @@ def delete(idNum):
 def hello(user_name=None):
     return render_template('home.html',
                            user=user_name)
+
+if __name__ == '__main__':
+    app.run()
